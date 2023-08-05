@@ -23,7 +23,7 @@ It may be helpful for someone who learning frontend development to read the code
     
 4. Nested tree UI react component
     
-5. Magical text field UI react component
+5. Magical text box (Personal experience)
     
 
 ## 1.Diary App (CMS)
@@ -115,7 +115,6 @@ That's how the discussion ended.
 
 %[https://codesandbox.io/s/react-magic-textbox-wulbc?from-embed] 
 
-  
 **Thanks for reading :)**
 
 ### **Popular articles:**
