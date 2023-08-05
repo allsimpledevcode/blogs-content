@@ -11,6 +11,8 @@ tags: web-development, reactjs, show, components-in-react
 
 ---
 
+## Introduction
+
 Initial learning I started with practical coding to learn anything new. The below projects are done previously by me.
 
 It may be helpful for someone who learning frontend development to read the code and gather some knowledge from these projects:
@@ -25,6 +27,8 @@ It may be helpful for someone who learning frontend development to read the code
     
 5. Magical text box (Personal experience)
     
+
+![](https://giphy.com/clips/pbs-science-human-footprint-shane-campbell-staton-cLLVsGPA6Vky1AZ2Rd align="center")
 
 ## 1.Diary App (CMS)
 
