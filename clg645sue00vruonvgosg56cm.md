@@ -10,21 +10,21 @@ tags: reactjs, typescript
 
 Last week I faced one problem in the HTML text area. it more about the user interaction with the text area component. In, this article I am going to cover the problem and solution.
 
-##Magic text box
-  We all know about HTML [input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) element and behaviour. but, In the input have one problem is inside the text box large text not able to read properly. 
+##Magic text box We all know about HTML [input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) element and behaviour. but, In the input have one problem is inside the text box large text not able to read properly.
 
 *Example:*
-![Alt Text](https://cdn.hashnode.com/res/hashnode/image/upload/v1680845743034/44cbad0a-cd82-4442-8518-3840d469467c.jpeg)
 
-In this case in our mind comes ` This problem will solve replace Input element to Text area element. so, we able to read the text properly `.
+![Alt Text](https://cdn.hashnode.com/res/hashnode/image/upload/v1680845743034/44cbad0a-cd82-4442-8518-3840d469467c.jpeg align="left")
+
+In this case in our mind comes `This problem will solve replace Input element to Text area element. so, we able to read the text properly`.
 
 Yes. but, inside the text area will come small text. so the text area will fill more space without having large content.
 
 *Example:*
-![Alt Text](https://cdn.hashnode.com/res/hashnode/image/upload/v1680845745112/d8735bbe-8482-46f5-9f87-6bf8189315b0.jpeg)
 
-####Solution conclusion 
-  Use text area with increase height based on the content. now, solved the problem in both cases.
+![Alt Text](https://cdn.hashnode.com/res/hashnode/image/upload/v1680845745112/d8735bbe-8482-46f5-9f87-6bf8189315b0.jpeg align="left")
+
+####Solution conclusion Use text area with increase height based on the content. now, solved the problem in both cases.
 
 let see the implementation part using **react** and **typescript**.
 
@@ -85,15 +85,14 @@ const ReactMagicTextBox = (props: MagicTextBoxProps) => {
 };
 
 export default ReactMagicTextBox;
-
 ```
 
 That's all. This is how I solved the problem. In case you know any solution better than this. please, share the solution via a comment at the post bottom.
 
-Refer to the below real-time example for more understanding.
-`Inside the textbox use large content and test it. And, see the difference.`  
-{% codesandbox react-magic-textbox-wulbc %}
+Refer to the below real-time example for more understanding. `Inside the textbox use large content and test it. And, see the difference.`  
 
-Thanks for reading this post 🍻🍻🍻.  
+%[https://codesandbox.io/s/react-magic-textbox-wulbc] 
+
+Thanks for reading this post 🍻🍻🍻.
 
 Please, [subscribe](https://lakshmananarumugam.com/#/portal/signup) to my blog website to get my latest blogs and project directly into your mail inbox.
