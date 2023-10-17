@@ -3,7 +3,7 @@ title: "No code API development for front end engineer/web developer 🔥"
 datePublished: Tue Oct 17 2023 18:56:13 GMT+0000 (Coordinated Universal Time)
 cuid: clnuos8ss0051qqnv9ilg6uj1
 slug: no-code-api-development-for-front-end-engineerweb-developer
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697569051213/abfec95c-3f29-4dc6-9a30-4c793af68e13.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697569102580/2b7ec185-f8bf-4f36-b32d-d627acfbfdb7.png
 
 ---
 
