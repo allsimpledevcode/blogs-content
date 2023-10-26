@@ -1,40 +1,42 @@
 ---
 title: "Advanced Next.js URL handling with URLSearchParams"
+seoTitle: "Advanced Next.js URL handling with URLSearchParams"
+seoDescription: "In Next.js, you can work with URL query parameters using the next/router module, which provides a way to access and manipulate the query string parameters."
 datePublished: Thu Oct 26 2023 05:56:21 GMT+0000 (Coordinated Universal Time)
 cuid: clo6ruacz000h09mne28sb90s
 slug: advanced-nextjs-url-handling-with-urlsearchparams
+canonical: https://simple-dev-code.blogspot.com/2023/10/advanced-nextjs-url-handling-with.html
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698299778851/4560c8e2-b8a5-4617-bcd3-03099f22bd4d.jpeg
 
 ---
 
 ## Video Tutorial
 
-%[https://youtube.com/shorts/OcpXXmaSpo0?feature=shared]
-
+%[https://youtube.com/shorts/OcpXXmaSpo0?feature=shared] 
 
 ## Introduction
 
 In Next.js, you can work with URL query parameters using the next/router module, which provides a way to access and manipulate the query string parameters of the current URL. Query parameters are typically used to pass data from one page to another or to filter content on a page. Here's how you can work with URL query parameters in Next.js:
 
-**Step 1:**
-Setup next.js project. if you want more about it [read the article](https://simple-dev-code.blogspot.com/2023/10/step-by-step-guide-to-setting-up-nextjs.html)
+**Step 1:** Setup next.js project. if you want more about it [read the article](https://simple-dev-code.blogspot.com/2023/10/step-by-step-guide-to-setting-up-nextjs.html)
 
-**Step 2:**
-Import URL search params in your file `page.tsx|jsx`.
+**Step 2:** Import URL search params in your file `page.tsx|jsx`.
 
-```
+```typescript
 import { useSearchParams } from 'next/navigation'
 ```
-**Step 3:**
-Use the useSearchParams hook into the file like below:
-```
+
+**Step 3:** Use the useSearchParams hook into the file like below:
+
+```typescript
 export default function Example() {
   const searchParams = useSearchParams()!;
 }
 ```
-**Step 4:**
-Accessing query params value into your component:
-```
+
+**Step 4:** Accessing query params value into your component:
+
+```typescript
 export default function Example() {
   let term;
   
@@ -49,16 +51,16 @@ export default function Example() {
   )
 }
 ```
-**Step 5:**
-Now, in the browser url next to add the value like this `localhost:3000?term=tutorials`
+
+**Step 5:** Now, in the browser url next to add the value like this `localhost:3000?term=tutorials`
 
 It's will automatically show's in the page. refer the screenshot
 
-![Demo](https://cdn.hashnode.com/res/hashnode/image/upload/v1698299777338/7292f7da-c2e2-4911-9ccd-7084e23201dd.png)
-
+![Demo](https://cdn.hashnode.com/res/hashnode/image/upload/v1698299777338/7292f7da-c2e2-4911-9ccd-7084e23201dd.png align="left")
 
 ## Complete source code
-```
+
+```typescript
 'use client';
 
 import { useState, useCallback } from 'react'
@@ -263,9 +265,7 @@ export default function Example() {
 }
 ```
 
-
 That's all and Thanks for reading my article.
-
 
 ## Stay Updated with Our Latest Content!
 
@@ -274,10 +274,3 @@ If you found this article informative and valuable, consider subscribing to our 
 [👉 Subscribe to Our Channel](https://youtube.com/@simpledevcode?feature=shared)
 
 Don't miss out on the opportunity to expand your knowledge and skills. Join our growing community of learners and enthusiasts today!
-
-
-
-
-
-
-
